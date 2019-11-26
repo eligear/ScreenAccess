@@ -11,11 +11,11 @@ namespace TiqSoft.ScreenAssistant.ScreenInfoRecognition.Recognizers.ApexLegends
     {
         private const string OcrCacheFile = "OCRCache.json";
         private static readonly SmartLimitedCache<int, string> ResultCache = SmartLimitedCache<int, string>.RestoreFromFile(OcrCacheFile, 100);
-        private static readonly Color RareColor = Color.FromArgb(25, 70, 110);
-        private static readonly Color Rare2Color = Color.FromArgb(60, 70, 110);
-        private static readonly Color EpicColor = Color.FromArgb(80, 40, 115);
-        private static readonly Color CommonColor = Color.FromArgb(80, 80, 80);
-        private static readonly Color LegendaryColor = Color.FromArgb(100, 80, 10);
+        private static readonly Color RareColor = Color.FromArgb(15, 40, 65);
+        private static readonly Color Rare2Color = Color.FromArgb(31, 40, 68);
+        private static readonly Color EpicColor = Color.FromArgb(90, 45, 154);
+        private static readonly Color CommonColor = Color.FromArgb(70, 70, 70);
+        private static readonly Color LegendaryColor = Color.FromArgb(110, 65, 30);
 #pragma warning disable 649
         private readonly DebugLogger _logger;
 #pragma warning restore 649
