@@ -24,7 +24,7 @@ if (!($cloned))
 	}
 	else
 	{
-		git clone "https://github.com/Lunat1q/ScreenAccess"
+		git clone "https://github.com/eligear/ScreenAccess"
 		cd "ScreenAccess"
 	}
 }
