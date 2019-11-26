@@ -24,9 +24,9 @@ namespace TiqSoft.ScreenAssistant.Helpers.Converters
                 case WeaponModuleType.Common:
                     return new SolidColorBrush(Colors.DimGray);
                 case WeaponModuleType.Rare:
-                    return new SolidColorBrush(Colors.CornflowerBlue);
+                    return new SolidColorBrush(Colors.Blue);
                 case WeaponModuleType.Epic:
-                    return new SolidColorBrush(Colors.DarkMagenta);
+                    return new SolidColorBrush(Colors.Purple);
                 case WeaponModuleType.Legendary:
                     return new SolidColorBrush(Colors.Goldenrod);
                 default:
